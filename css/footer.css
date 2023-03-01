@@ -1,0 +1,60 @@
+.footer {
+  width: 93%;
+  margin: 0 auto;
+}
+.footer-content {
+  margin-bottom: 24px;
+}
+.footer-content::after {
+  border: 1px solid #3E3E3E;
+  content: "";
+  width: 100%;
+  display: flex;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+.footer-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-navigation-left {
+  display: flex;
+  align-items: center;
+}
+.footer-navigation-right {
+  width: 192px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+.footer .logo-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-link {
+  list-style: none;
+  margin-right: 58px;
+  transition: transform 0.3s;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-link:last-child {
+  margin: 0;
+}
+.footer-link:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}/*# sourceMappingURL=footer.css.map */

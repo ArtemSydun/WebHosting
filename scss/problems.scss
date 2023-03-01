@@ -1,0 +1,34 @@
+.problems {
+    width:90%;
+    margin:0 auto;
+    margin-bottom:90px;
+    &-content {
+        padding:24px 54px;
+        background: #CCFF8B;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-title {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 43px;
+        color: #121212;
+        width: 359px;
+
+    }
+    &-button {
+        width: 195px;
+        height: 63px;
+        background: #121212;
+        color:#FFFFFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        border:none;
+    }
+}

@@ -1,0 +1,31 @@
+.saving {
+    margin-top:110px;
+    &-content {
+        display:flex;
+        margin-bottom:110px;
+    }
+    &-right {
+        margin: 0 auto;
+        width:50%;
+        justify-content: center;
+        display:flex;
+        flex-direction: column;
+        .button-start {
+            width: 170px;
+        }
+    }
+    &-title {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    &-description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;  
+    }
+}

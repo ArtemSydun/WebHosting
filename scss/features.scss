@@ -1,0 +1,63 @@
+.features {
+    background: #E7E7E7;
+    color:black;
+    width:100%;
+    display:block;
+    padding:50px 0;
+    &-content {
+        width:80%;
+        margin:0 auto;
+    }
+
+    &-top {
+        width: 60%;
+        margin:0 auto;
+        &-title {
+
+        }
+    }
+    &-title {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+
+    }
+
+    &-description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+    }
+    &-bottom {
+        margin-top:50px;
+        display:flex;
+        justify-content: space-between;
+    }
+    &-item {
+        background: #FFFFFF;
+        width:33%;
+        padding:16px 25px;
+        margin-right:40px;
+        &-title {
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 25px;
+            margin-top:24px;
+        }
+        &-description {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+        }
+    }
+}

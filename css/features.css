@@ -1,0 +1,57 @@
+.features {
+  background: #E7E7E7;
+  color: black;
+  width: 100%;
+  display: block;
+  padding: 50px 0;
+}
+.features-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.features-top {
+  width: 60%;
+  margin: 0 auto;
+}
+.features-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+}
+.features-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+.features-bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.features-item {
+  background: #FFFFFF;
+  width: 33%;
+  padding: 16px 25px;
+  margin-right: 40px;
+}
+.features-item-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 24px;
+}
+.features-item-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}/*# sourceMappingURL=features.css.map */

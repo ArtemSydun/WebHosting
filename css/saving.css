@@ -1,0 +1,31 @@
+.saving {
+  margin-top: 110px;
+}
+.saving-content {
+  display: flex;
+  margin-bottom: 110px;
+}
+.saving-right {
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.saving-right .button-start {
+  width: 170px;
+}
+.saving-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+}
+.saving-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}/*# sourceMappingURL=saving.css.map */

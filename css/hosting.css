@@ -1,0 +1,21 @@
+.hosting-top {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hosting-top-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+.hosting-top-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 60%;
+}/*# sourceMappingURL=hosting.css.map */

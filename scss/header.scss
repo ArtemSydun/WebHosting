@@ -1,0 +1,108 @@
+.header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    width:90%;
+    margin:0 auto;
+    margin-top:50px;
+    height:100vh;
+    &-navigation {
+
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left {
+            display:flex;
+            align-items: center;
+        }
+        &-right {
+
+        }
+    }
+    &-logo {
+        display:flex;
+        align-items: center;
+        margin-right:100px;
+
+    }
+    &-link {
+        list-style: none;
+        margin-right:58px;
+        transition: transform 0.3s;
+
+    }
+    &-link:last-child {
+        margin:0;
+    }
+    &-link:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        
+    }
+
+    &-content {
+        margin-top:52px;
+        display:flex;
+        justify-content: space-between;
+
+    }
+
+    &-button {
+        .button-start {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+        }
+        .button-start:last-child {
+            background:white;
+            margin-left:22px;
+        }
+    }
+}
+
+.logo {
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+    &-title {
+
+        width:100%;
+    }
+}
+
+.button {
+    &-start {
+        padding:12px 20px;
+        background: #CCFF8B;
+        border:none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    &-start:hover {
+        cursor: pointer;
+    }
+}
+
+
+.title {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}

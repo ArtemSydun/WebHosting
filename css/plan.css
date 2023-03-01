@@ -1,0 +1,161 @@
+.plan {
+  background: #FFFFFF;
+}
+.plan-content {
+  color: #070707;
+  padding: 42px 0;
+  margin: 0 auto;
+  width: 90%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.plan-top {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.plan-bottom {
+  margin-top: 100px;
+}
+.plan-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  color: #050505;
+  margin: 0;
+}
+.plan-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 42px;
+}
+.plan-buttons {
+  display: flex;
+  justify-content: center;
+}
+.plan-buttons .button-start {
+  width: 141px;
+  height: 55px;
+}
+.plan-buttons .button-start:last-child {
+  background: #F4F4F4;
+}
+.plan-items {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-item {
+  width: 33%;
+  height: 100%;
+  box-shadow: 13px 14px 25px rgba(0, 0, 0, 0.06);
+  margin-right: 60px;
+  transition: transform 0.3s;
+}
+.plan-item-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+.plan-item-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 25px;
+}
+.plan-item-link {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.plan-item-link:before {
+  background-image: url(/img/plan-checkmark.svg);
+  width: 25px;
+  height: 25px;
+  content: " ";
+  display: inline-block;
+  margin-right: 20px;
+}
+.plan-item-links {
+  height: 277px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.plan-item-digit {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+}
+.plan-item-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 78px;
+}
+.plan-item:last-child {
+  margin-right: 0;
+}
+.plan-item:hover {
+  transform: scale(1.1);
+}
+
+.most-popular {
+  background-color: #050505;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  top: -45px;
+}
+
+.bottom-button {
+  height: 32px;
+  background: #FFFFFF;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+#popular {
+  position: relative;
+}
+#popular .bottom-button {
+  background: #CCFF8B;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  width: 220px;
+  height: 50px;
+}
+#popular .plan-item {
+  position: relative;
+  box-shadow: 13px 14px 25px rgba(0, 0, 0, 0.06);
+}/*# sourceMappingURL=plan.css.map */

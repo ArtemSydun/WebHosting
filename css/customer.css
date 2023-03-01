@@ -1,0 +1,49 @@
+.customers {
+  margin: 0 auto;
+  width: 70%;
+}
+.customers-content {
+  margin: 58px 0px 104px 0px;
+}
+.customers-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 43px;
+  width: 398px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.customers-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+.customers-review {
+  margin-right: 130px;
+  width: 360px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.customers-review:last-child {
+  margin: 0;
+}
+.customers-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 25px 0 10px 0px;
+}
+.customers-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=customer.css.map */
