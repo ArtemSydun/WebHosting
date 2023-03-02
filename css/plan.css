@@ -49,6 +49,12 @@
 .plan-buttons .button-start:last-child {
   background: #F4F4F4;
 }
+.plan-buttons .button-start:hover {
+  background: #79CB12;
+}
+.plan-buttons .button-start:last-child:hover {
+  background: #D1CBCB;
+}
 .plan-items {
   display: flex;
   justify-content: space-between;
@@ -158,4 +164,56 @@
 #popular .plan-item {
   position: relative;
   box-shadow: 13px 14px 25px rgba(0, 0, 0, 0.06);
+}
+
+@media only screen and (max-width: 1200px) {
+  .plan-item {
+    width: 100%;
+  }
+  .plan-items {
+    flex-direction: column;
+  }
+  .plan-top {
+    width: 100%;
+  }
+  .most-popular {
+    position: relative;
+    top: 0;
+  }
+  #popular {
+    margin: 54px 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .plan-title {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .plan-description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .plan-item {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .plan-item-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=plan.css.map */

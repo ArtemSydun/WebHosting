@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="css/customer.css">
         <link rel="stylesheet" href="css/problems.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/burger-page.css">
+        <script src="/scripts/script.js"></script>
         <link href="https://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,15 +23,51 @@
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
+    <body class="default">
+        <div class="burger-page">
+            <div class="burger-container">
+                <div class="burger-container-menu">
+                    <div class="burger-container-menu-top">
+                        <a href="#" class="burger-logo">
+                                <img class="object-cover" src="img/logo-burger.svg" alt="">
+                        </a>
+                        <a href="#" class="burger-close">
+                            <img src="img/burger-close.svg" alt="" class="object-cover">
+                        </a>
+                        </div>
+                        <div class="burger-container-menu-right">
+
+                        </div>
+                    </div>
+                    <div class="burger-container-menu-bottom">
+                        <ul class="burger-list">
+                            <li class="burger-link">
+                                 Demos
+                            </li>
+                            <li class="burger-link">
+                                 About
+                            </li>
+                             <li class="burger-link">
+                               Blog
+                            </li>
+                            <li class="burger-link">
+                                Pages
+                            </li>
+                            <li class="burger-link">
+                              Contact
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="header">
             <nav class="header-navigation">
                 <div class="header-navigation-left">
                     <div class="header-logo">
                         <a class="logo" href="">
-                            <img src="/img/logo1.png" alt="">
+                            <img class="object-cover" src="/img/logo1.svg" alt="">
                         </a>
-                        <p class="logo-title">Web Hosting</p>
                     </div>
                     <li class="header-link">Demos</li>
                     <li class="header-link">About</li>
@@ -39,6 +77,9 @@
                 </div>
                 <div class="header-navigation-right">
                     <button class="button-start">Get started</button>
+                </div>
+                <div class="burger-menu">
+                    <a href="#menu" class="burger-menu-icon"></a>
                 </div>
             </nav>
             <div class="header-content">
@@ -59,7 +100,7 @@
                     </div>
                 </div>
                 <div class="header-right">
-                    <img src="/img/diagrams1.svg" alt="">
+                    <img class="object-cover" src="/img/diagrams1.svg" alt="">
                 </div>
             </div>
         </div>
@@ -120,7 +161,10 @@
                 </div>
                 <div class="saving">
                     <div class="saving-content">
-                        <img src="/img/diagrams2.svg" alt="">
+                        <div class="saving-left">
+                            <img class="object-cover" src="/img/diagrams2.svg" alt="">
+                        </div>
+                        
                         <div class="saving-right">
                             <div class="saving-title">Lets get rid of worries <br>
                                 about web hosting to <br>
@@ -148,7 +192,10 @@
                                 <p class="platform-left-description">Unlimited Domain & Hosting in One Platform.Website hosting options, 99.9% uptime guarantee, free SSL certificate, easy WordPress installs.</p>
                                 <button class="button-start">Explore now</button>
                             </div>
-                            <img src="img/diagrams3.svg" alt="">
+                            <div class="platform-right">
+                                <img class="object-cover" src="img/diagrams3.svg" alt="">
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -281,9 +328,8 @@
                 <nav class="footer-navigation">
                     <div class="footer-logo">
                         <a class="logo" href="">
-                            <img src="/img/logo1.png" alt="">
+                            <img class="object-cover" src="/img/logo1.svg" alt="">
                         </a>
-                        <p class="logo-title">Web Hosting</p>
                     </div>
                     <div class="footer-links">
                         <li class="footer-link">Demos</li>
@@ -293,11 +339,11 @@
                         <li class="footer-link">Contact</li>
                     </div>
                     <div class="footer-navigation-right">
-                        <img src="/img/google.svg" alt="" class="footer-img">
-                        <img src="/img/framer.svg" alt="" class="footer-img">
-                        <img src="/img/facebook.svg" alt="" class="footer-img">
-                        <img src="/img/whatsapp.svg" alt="" class="footer-img">
-                        <img src="/img/youtube.svg" alt="" class="footer-img">
+                        <a href="#"><img src="/img/google.svg" alt="" class="footer-img"></a>
+                        <a href=""><img src="/img/framer.svg" alt="" class="footer-img"></a>
+                        <a href=""><img src="/img/facebook.svg" alt="" class="footer-img"></a>
+                        <a href=""><img src="/img/whatsapp.svg" alt="" class="footer-img"></a>
+                        <a href=""><img src="/img/youtube.svg" alt="" class="footer-img"></a>
                     </div>
                 </nav>
             </div>

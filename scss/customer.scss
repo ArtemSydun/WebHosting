@@ -49,3 +49,40 @@
         margin-bottom:25px;
     }
 }
+
+
+@media only screen and (max-width:878px) {
+    .customers {
+        &-title {
+            width:100%;
+        }
+        &-reviews {
+            flex-direction: column;
+        }
+        &-review {
+            margin:0 auto;
+        }
+        &-review:last-child {
+            margin: 0 auto;
+            padding-top:54px;
+        }
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .customers {
+        width:85%;
+        &-review {
+            width: 100%;
+        }
+        &-title {
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: center;
+            height: 70px;
+        }
+    }
+}

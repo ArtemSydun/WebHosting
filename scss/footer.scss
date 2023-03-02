@@ -16,7 +16,7 @@
     }
 
 &-navigation {
-
+    margin-bottom:24px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -61,4 +61,37 @@
     transform: scale(1.2);
     
 }
+}
+
+@media only screen and (max-width:1000px) {
+    .footer {
+        &-logo {
+            margin-right:0px;
+        }
+    }
+}
+@media only screen and (max-width:878px) {
+    .footer {
+        &-link {
+            display:none;
+        }
+    }
+}
+@media only screen and (max-width:560px) {
+    .footer {
+        &-navigation {
+            flex-direction: column;
+            gap:36px;
+        }
+        &-link {
+            display:block;
+            margin-right:14px;
+        }
+        &-content::after {
+            display:none;
+        }
+        .logo-title {
+            margin:0;
+        }
+    }
 }

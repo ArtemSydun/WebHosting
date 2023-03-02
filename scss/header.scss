@@ -18,7 +18,9 @@
             align-items: center;
         }
         &-right {
-
+            .button-start:hover {
+                background: #79CB12;
+            }
         }
     }
     &-logo {
@@ -46,9 +48,14 @@
         margin-top:52px;
         display:flex;
         justify-content: space-between;
-
+        height: 80%;
     }
-
+    &-left {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height:90%;
+    }
     &-button {
         .button-start {
             font-family: 'Inter';
@@ -60,6 +67,12 @@
         .button-start:last-child {
             background:white;
             margin-left:22px;
+        }
+        .button-start:hover {
+            background: #79CB12;
+        }
+        .button-start:last-child:hover {
+            background: #D1CBCB;
         }
     }
 }
@@ -105,4 +118,82 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+}
+
+
+@media only screen  and (max-width:1401px) {
+    .header {
+        &-left {
+            display:block;
+            height: 100%;
+        }
+        &-right {
+            width: 474px;
+            height: 542px;
+        }
+    }
+}
+
+@media only screen and (max-width:1201px) {
+    .header {
+        height: 100%;
+        &-content {
+            flex-direction: column;
+            margin-bottom:52px;
+        }
+        &-left {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom:52px;
+        }
+        &-right {
+            width: 280px;
+            height: 320px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .header {
+        &-link {
+            display:none;
+        }
+        &-navigation-right {
+            display:none;
+        }
+    }
+}
+@media only screen and (max-width:560px) {
+    .header {
+        &-button {
+            display:flex;
+            flex-direction: column;
+            width: 215px;
+            margin-top:15px;
+        }
+        .button-start {
+            margin-bottom:14px;
+        }
+        .button-start:last-child {
+            margin: 0px;
+        }
+    }
+    .title {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38.0172px;
+        line-height: 47px;
+        text-align: center;
+    }
+    .description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
 }

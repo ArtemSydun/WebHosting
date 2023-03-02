@@ -17,6 +17,13 @@ body {
   }
 
 
-
+.default {
+    &.menu {
+        overflow: hidden;
+        .burger-page {
+            transform:translateX(0);
+        }
+    }
+}
 
   

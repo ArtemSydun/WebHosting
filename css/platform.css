@@ -76,4 +76,64 @@
 }
 .platform-left .button-start {
   width: 170px;
+}
+.platform-left .button-start:hover {
+  background: #79CB12;
+}
+
+@media only screen and (max-width: 1000px) {
+  .platform-bottom {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .platform-top {
+    width: 100%;
+  }
+  .platform-left {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .platform-right {
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .platform-title {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .platform-description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .platform-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .platform-left-title {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .platform-left-description {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }/*# sourceMappingURL=platform.css.map */

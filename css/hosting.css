@@ -18,4 +18,35 @@
   font-size: 20px;
   line-height: 32px;
   width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hosting-top {
+    flex-direction: column;
+  }
+  .hosting-top-title {
+    width: 100%;
+    text-align: center;
+  }
+  .hosting-top-description {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .hosting-top-title {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .hosting-top-description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=hosting.css.map */

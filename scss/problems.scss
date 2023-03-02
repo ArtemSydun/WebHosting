@@ -31,4 +31,34 @@
         line-height: 26px;
         border:none;
     }
+    &-button:hover {
+        background: #6D0C0C;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .problems {
+        width:100%;
+        &-content {
+            flex-direction: column;
+        }
+        &-title {
+            text-align: center;
+            margin-bottom:30px;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 37px;
+        }
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .problems {
+        &-title {
+            width: 100%;
+        }
+    }
 }
