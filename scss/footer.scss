@@ -72,7 +72,7 @@
 }
 @media only screen and (max-width:878px) {
     .footer {
-        &-link {
+        &-item {
             display:none;
         }
     }
@@ -83,7 +83,7 @@
             flex-direction: column;
             gap:36px;
         }
-        &-link {
+        &-item {
             display:block;
             margin-right:14px;
         }
