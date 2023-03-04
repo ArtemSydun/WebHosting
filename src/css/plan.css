@@ -86,7 +86,7 @@
   align-items: center;
 }
 .plan-item-link:before {
-  background-image: url(/img/plan-checkmark.svg);
+  background-image: url(../img/plan-checkmark.svg);
   width: 25px;
   height: 25px;
   content: " ";
