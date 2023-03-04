@@ -29,10 +29,6 @@
   justify-content: space-between;
   margin-top: 20px;
 }
-.platform-links :first-child {
-  color: #CCFF8B;
-  border-bottom: 1px solid #CCFF8B;
-}
 .platform-link {
   font-family: "Inter";
   font-style: normal;
@@ -42,6 +38,11 @@
   text-align: center;
   border-bottom: 1px solid #DCDCDC;
   transition: transform 0.3s;
+  text-decoration: none;
+}
+.platform-link:first-child {
+  color: #CCFF8B;
+  border-bottom: 1px solid #CCFF8B;
 }
 .platform-link:hover {
   cursor: pointer;

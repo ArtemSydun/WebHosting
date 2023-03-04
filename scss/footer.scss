@@ -42,7 +42,7 @@
     font-size: 16px;
     line-height: 19px;
 }
-&-link {
+&-item {
     list-style: none;
     margin-right:58px;
     transition: transform 0.3s;
@@ -53,10 +53,10 @@
     line-height: 19px;
 
 }
-&-link:last-child {
+&-item:last-child {
     margin:0;
 }
-&-link:hover {
+&-item:hover {
     cursor: pointer;
     transform: scale(1.2);
     

@@ -42,7 +42,7 @@
   font-size: 16px;
   line-height: 19px;
 }
-.footer-link {
+.footer-item {
   list-style: none;
   margin-right: 58px;
   transition: transform 0.3s;
@@ -52,10 +52,10 @@
   font-size: 16px;
   line-height: 19px;
 }
-.footer-link:last-child {
+.footer-item:last-child {
   margin: 0;
 }
-.footer-link:hover {
+.footer-item:hover {
   cursor: pointer;
   transform: scale(1.2);
 }

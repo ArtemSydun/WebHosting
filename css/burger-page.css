@@ -43,9 +43,13 @@
   list-style: none;
   padding: 0;
 }
-.burger-link {
+.burger-item {
   font-size: 35px;
   margin: 25px 0;
+}
+.burger-close {
+  width: 30px;
+  height: 30px;
 }
 
 @media only screen and (max-width: 1000px) {

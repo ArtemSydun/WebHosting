@@ -30,10 +30,7 @@
         display:flex;
         justify-content: space-between;
         margin-top:20px;
-        :first-child {
-            color: #CCFF8B;
-            border-bottom: 1px solid #CCFF8B;
-        }
+        
 
     }
     &-link {
@@ -45,7 +42,12 @@
         text-align: center;
         border-bottom: 1px solid #DCDCDC;
         transition: transform 0.3s;
+        text-decoration: none;   
         
+    }
+    &-link:first-child {
+        color: #CCFF8B;
+        border-bottom: 1px solid #CCFF8B;
     }
     &-link:hover {
         cursor: pointer;
